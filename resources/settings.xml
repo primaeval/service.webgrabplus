@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category id="timer" label="Timer">
+        <setting id="OnCalendar" label="OnCalendar" type="text" default="*-*-* 03:02:01" />
+	</category>
+</settings>

@@ -1,0 +1,10 @@
+[Unit]
+Description=WebGrab+Plus daily
+
+[Timer]
+OnCalendar=*-*-* 03:02:01
+RandomizedDelaySec=600
+Persistent=true
+
+[Install]
+WantedBy=timers.target

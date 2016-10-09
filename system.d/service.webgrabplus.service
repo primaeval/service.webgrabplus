@@ -1,0 +1,9 @@
+[Unit]
+Description=WebGrab+Plus Service
+Documentation=http://www.webgrabplus.com/
+After=network.target
+Requires=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /storage/.kodi/addons/service.webgrabplus/bin/webgrabplus.start
